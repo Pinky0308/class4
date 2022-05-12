@@ -1,0 +1,68 @@
+.eid_card{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-blend-mode: multiply;
+    background-color: rgba(226, 220, 220, 0.5);
+    background-image: url(../img/background_eid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 20px 40px 0px ;
+    transition:0.8s;
+}
+.eid_card h2{
+    padding:80px 30px;
+    font-size: 30px;
+    
+}
+.eid_card:hover {
+    background-image: url(../img/eid.jpg);
+    width: 700px;
+}
+.eid_card:hover h2{
+    display: none;
+}
+.b_day_card{
+    width: 400px;
+    height: 500px;
+    margin: 10px auto;
+    background-blend-mode: multiply;
+    background-color: rgba(204, 189, 212, 0.192);
+    background-image: url(../img/birthday.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 20px 40px 0px ;
+    transition:0.8s; 
+}
+.b_day_card h2{
+    visibility: hidden;
+
+}
+.b_day_card p{
+    visibility: hidden;
+}
+.b_day_card:hover{
+    background-image: url(../img/background_bday.webp);
+    width: 700px;
+    background-blend-mode: multiply;
+    background-color: rgba(12, 127, 161, 0.5);
+}
+.b_day_card:hover h2{
+    visibility: visible;
+    margin: 60px auto 80px;;
+    color:brown;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.b_day_card:hover p{
+    margin: 40px 200px 40px auto;
+    visibility: visible;
+    color:brown;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
